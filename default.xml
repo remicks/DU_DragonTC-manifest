@@ -392,7 +392,6 @@
 
  <!-- DU REPOS -->
  <!-- general -->
- <project path="manifest" name="android_manifest" remote="du" revision="m" />
  <project path="build" name="android_build" remote="du" revision="m" >
  <copyfile src="core/root.mk" dest="Makefile" />
  </project>
@@ -480,5 +479,8 @@
 
  <!-- vendor -->
  <project path="vendor/du" name="android_vendor_du" remote="du" revision="m" />
+ 
+ <!-- remicks modifications -->
+ <project path="manifest" name="remicks/DU_DragonTC-manifest" remote="github" revision="m" />
 
 </manifest>
