@@ -12,6 +12,9 @@
  <remote  name="du"
           fetch="https://github.com/DirtyUnicorns/"
           review="gerrit.dirtyunicorns.com" />
+          
+<remote  name="bb"
+           fetch="https://bitbucket.org/" />	   
 
  <default revision="refs/tags/android-6.0.1_r22"
           remote="aosp"
@@ -341,7 +344,6 @@
  <project path="platform_testing" name="platform/platform_testing" />
  <project path="prebuilts/android-emulator" name="platform/prebuilts/android-emulator" groups="pdk-fs" clone-depth="1" />
  <project path="prebuilts/clang/darwin-x86/host/3.6" name="platform/prebuilts/clang/darwin-x86/host/3.6" groups="pdk,darwin" />
- <project path="prebuilts/clang/linux-x86/host/3.6" name="platform/prebuilts/clang/linux-x86/host/3.6" groups="pdk,linux" />
  <project path="prebuilts/devtools" name="platform/prebuilts/devtools" groups="pdk-fs" />
  <project path="prebuilts/eclipse" name="platform/prebuilts/eclipse" groups="pdk" />
  <project path="prebuilts/eclipse-build-deps" name="platform/prebuilts/eclipse-build-deps" groups="notdefault,eclipse" />
@@ -482,5 +484,8 @@
  
  <!-- remicks modifications -->
  <project path="manifest" name="remicks/DU_DragonTC-manifest" remote="github" revision="m" />
+
+<!--Dragon TC -->
+ <project path="prebuilts/clang/linux-x86/host/3.9" name="dragon-tc/dragontc-3.9" groups="pdk,linux" remote="bb" revision="master" />
 
 </manifest>
