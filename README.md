@@ -6,7 +6,9 @@ To setup your build enivornment and sync DU, please follow this guide [HERE](htt
 
 We will use this manifest url instead for repo init:
 
-[code]repo init -u https://github.com/remicks/DU_DragonTC-manifest -b m[/code]
+```bash
+repo init -u https://github.com/remicks/DU_DragonTC-manifest -b m[/code]
+```
 
 ## Submitting Patches ##
 
