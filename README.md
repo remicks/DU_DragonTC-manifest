@@ -4,6 +4,10 @@
 
 To setup your build enivornment and sync DU, please follow this guide [HERE](http://forum.xda-developers.com/chef-central/android/tutorial-compile-lollipop-ubuntu-t2929410)
 
+We will use this manifest url instead for repo init:
+
+[code]repo init -u https://github.com/remicks/DU_DragonTC-manifest -b m[/code]
+
 ## Submitting Patches ##
 
 DU is an open source project that lives because of contributions of the Android community.
