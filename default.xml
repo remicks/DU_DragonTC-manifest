@@ -391,7 +391,6 @@
 
  <!-- DU REPOS -->
  <!-- general -->
- <project path="build" name="android_build" remote="du" revision="m" >
  <copyfile src="core/root.mk" dest="Makefile" />
  </project>
  <project path="development" name="android_development" remote="du" revision="m" />
@@ -478,6 +477,7 @@
  
  <!-- remicks modifications -->
  <project path="manifest" name="remicks/DU_DragonTC-manifest" remote="github" revision="m" />
+ <project path="build" name="remicks/dragontc_du_build" remote="github" revision="m" >
 
 <!--Dragon TC -->
  <project path="prebuilts/clang/linux-x86/host/3.6" name="dragon-tc/dragontc-3.6" groups="pdk,linux" remote="bb" revision="master" />
