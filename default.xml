@@ -480,6 +480,9 @@
  <project path="manifest" name="remicks/DU_DragonTC-manifest" remote="github" revision="m" />
 
 <!--Dragon TC -->
+ <project path="prebuilts/clang/linux-x86/host/3.6" name="dragon-tc/dragontc-3.6" groups="pdk,linux" remote="bb" revision="master" />
+ <project path="prebuilts/clang/linux-x86/host/3.7" name="dragon-tc/dragontc-3.7" groups="pdk,linux" remote="bb" revision="master" />
+ <project path="prebuilts/clang/linux-x86/host/3.8" name="dragon-tc/dragontc-3.8" groups="pdk,linux" remote="bb" revision="master" />
  <project path="prebuilts/clang/linux-x86/host/3.9" name="dragon-tc/dragontc-3.9" groups="pdk,linux" remote="bb" revision="master" />
 
 <!-- UBERTC -->
